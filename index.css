@@ -27,6 +27,28 @@ header{
     display:flex;
     flex-flow: row;
 }
+/*-----------------------------------------LOGO------------------------------------------------*/
+.Logo--row{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row;
+    height: 10rem;
+    width: 100%;
+    padding-left: 6rem;
+    background-color: blue;
+}
+.Logo--box{
+    display:flex;
+    padding: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50%;
+    width: 70%;
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    background-color: beige;
+}
 
 /*---------------------------------------MENU SECTION---------------------------------------*/
 .Menu{
@@ -34,26 +56,48 @@ header{
     position:fixed;
     flex-flow: column;
     height: 100%;
-    width: 20vw;
+    width: 20%;
     background-color: springgreen;
 }
-.Logo--row{
+.Menu--listbox{
     display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row;
-    height: 10rem;
-    width: 100%;
-    background-color: blue;
+    flex-flow: column;
+    height: 35rem;
+    width: auto;
+    margin-left: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    background-color: orange;
 }
-.Logo--box{
+.Menu--listbox--item{
     display:flex;
-    justify-content: center;
     align-items: center;
-    height: 70%;
-    width: 70%;
-    font-size: 3rem;
-    background-color: beige;
+    padding: 1rem;
+    height: 17%;
+    width: auto;
+    font-size: 2rem;
+    color: #898989;
+    letter-spacing: 1px;
+    border: solid white;
+    background-color: darkblue;
+}
+.Menu--footer{
+    display:flex;
+    flex-flow: column;
+    height: 15rem;
+    width: auto;
+    margin-left: 6rem;
+    background-color: orange;
+}
+.Menu--footer--item{
+    display:flex;
+    align-items: center;
+    padding: 1rem;
+    height: 17%;
+    width: auto;
+    font-size: 1.8rem;
+    border: solid white;
+    background-color: darkblue;
 }
 
 /*---------------------------------------Catalog SECTION---------------------------------------*/
@@ -70,7 +114,7 @@ header{
 .catalog--featured{
     display:flex;
     height: 60rem;
-    margin: 1rem 0px;
+    margin-bottom: 1rem;
     width: 100%;
     background-color: lightgrey;
 }
