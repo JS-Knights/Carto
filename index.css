@@ -19,12 +19,11 @@
 /*-----------------------------------------Header------------------------------------------------*/
 header{
     display:flex;
-    position:fixed;
+    position:relative;
     align-items: center;
     justify-content: flex-end;
     height: 10rem;
-    left: 20%;
-    width: 80%;
+    width: 100%;
     z-index: 2;
     background-color: white;
 }
@@ -137,7 +136,7 @@ header{
 .catalog{
     display:flex;
     flex-flow: column;
-    margin-top: 10rem;
+
     margin-left: 20%;
     padding-right: 10rem;
     height: 100%;
@@ -174,7 +173,10 @@ header{
     display:flex;
     height: 83%;
     width: 100%;
-
+    transition: 1s;
+}
+.item--image:hover{
+    opacity: .6;
 }
 .item--detail{
     display:flex;
