@@ -15,7 +15,7 @@ header{
     align-items: center;
     height: 10rem;
     width: 100vw;
-    background-color:red;
+    /*background-color:red;*/
 }
 /*---------------------Logo------------------------*/
 .Logo--col{
@@ -26,7 +26,7 @@ header{
     height: 10rem;
     width: 20%;
     padding-left: 6rem;
-    background-color:tan;
+    /*background-color:tan;*/
 }
 .Logo--box{
     display:flex;
@@ -38,7 +38,7 @@ header{
     font-size: 3.5rem;
     letter-spacing: .5rem;
     font-weight: lighter;
-    background-color: beige;
+    /*background-color: beige;*/
 }
 /*------------Right Header Section----------------------*/
 .heading{
@@ -49,7 +49,7 @@ header{
     font-size: 3rem;
     font-weight: lighter;
     color:#898989;
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
 }
 .header--icon--box
 {
@@ -59,7 +59,7 @@ header{
     height: 8rem;
     width: 8rem;
     transition: .5s;
-    background-color: lightgrey;
+    /*background-color: lightgrey;*/
 }
 .header--icon--box:hover{
     background-color: #F4F5F7;
@@ -75,7 +75,7 @@ header{
     flex-flow: column;
     height: 100%;
     width: 100vw;
-    background-color: blue;
+    /*background-color: blue;*/
 }
 .Detail--heading{
     display: flex;
@@ -85,7 +85,7 @@ header{
     height: 8rem;
     width: 90vw;
     margin-bottom: 1rem;
-    background-color: orangered;
+    /*background-color: orangered;*/
     border-bottom: solid 1px;
 }
 .Detail--heading--col1{
@@ -96,7 +96,7 @@ header{
     font-size: 2.5rem;
     width: 60%;
     font-weight: lighter;
-    background-color: yellow;
+    /*background-color: yellow;*/
 }
 .Detail--heading--col2{
     display: flex;
@@ -106,7 +106,7 @@ header{
     padding-left: 2rem;
     width: 20%;
     font-weight: lighter;
-    background-color: rebeccapurple;
+    /*background-color: rebeccapurple;*/
 }
 .Detail--heading--col3{
     display: flex;
@@ -117,7 +117,7 @@ header{
     padding-left: 2rem;
     margin-left:1rem ;
     font-weight: lighter;
-    background-color: bisque;
+    /*background-color: bisque;*/
 }
 .Detail--item{
     display: flex;
@@ -125,7 +125,7 @@ header{
     align-items: center;
     height: 12rem;
     width: 90vw;
-    background-color: palegreen;
+    /*background-color: palegreen;*/
 }
 .Detail--item--col1{
     display: flex;
@@ -135,7 +135,7 @@ header{
     flex-flow: row;
     height: 10rem;
     width: 60%;
-    background-color: yellow;
+    /*background-color: yellow;*/
 }
 .Detail--item--col2{
     display: flex;
@@ -146,7 +146,7 @@ header{
     height: 10rem;
     padding-left: 2rem;
     width: 20%;
-    background-color: rebeccapurple;
+    /*background-color: rebeccapurple;*/
 }
 .Detail--item--col3{
     display: flex;
@@ -157,7 +157,7 @@ header{
     height: 10rem;
     padding-left: 2rem;
     width: 20%;
-    background-color: bisque;
+    /*background-color: bisque;*/
 }
 .col3--row{
     display: flex;
@@ -165,15 +165,20 @@ header{
     align-items: center;
     height: 40%;
     width: 50%;
-    background-color: indianred;
+    /*background-color: indianred;*/
 }
 .icon--container{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
     height: 100%;
     width: 30%;
-    background-color: darkblue;
+    transition: .5s;
+    /*background-color: darkblue;*/
+}
+.icon--container:hover{
+    background-color: #F4F5F7;
 }
 .quantity{
     display: flex;
@@ -183,7 +188,7 @@ header{
     width: 30%;
     font-size: 2rem;
     font-weight: lighter;
-    background-color: #898989;
+    /*background-color: #898989;*/
 }
 .icon{
     height: 80%;
@@ -196,7 +201,7 @@ header{
     align-items: center;
     height: 100%;
     width: 11rem;
-    background-color: teal;
+    /*background-color: teal;*/
 }
 .item--image{
     height: 90%;
@@ -208,7 +213,7 @@ header{
     justify-content: center;
     height: 90%;
     width: 100%;
-    background-color: olive;
+    /*background-color: olive;*/
 }
 .item--name{
     display: flex;
@@ -219,7 +224,7 @@ header{
     font-weight: lighter;
     height: 60%;
     width: 100%;
-    background-color: firebrick;
+    /*background-color: firebrick;*/
 }
 .item--option{
     display: flex;
@@ -228,7 +233,7 @@ header{
     height: 40%;
     width: 100%;
     padding-left: 2rem;
-    background-color: cornflowerblue;
+    /*background-color: cornflowerblue;*/
 }
 .item--option--row{
     display: flex;
@@ -237,7 +242,7 @@ header{
     flex-flow: row;
     height: 50%;
     width: 40%;
-    background-color: gold;
+    /*background-color: gold;*/
 }
 .option--1{
     display: flex;
@@ -251,7 +256,7 @@ header{
     color: red;
     cursor: pointer;
     border-right: solid 1px gray;
-    background-color: gold;
+    /*background-color: gold;*/
 }
 .option--2{
     display: flex;
@@ -264,21 +269,21 @@ header{
     cursor: pointer;
     font-weight: lighter;
     color: black;
-    background-color: gold;
+    /*background-color: gold;*/
 }
 /*--------------------------------Total Amount------------------------------*/
 .total--row{
     display: flex;
     height: 10rem;
     width: 90%;
-    background-color: darkblue;
+    /*background-color: darkblue;*/
 }
 .total--col1{
     display: flex;
     height: 9rem;
     width: 60%;
     padding-left: 2rem;
-    background-color: yellow;
+    /*background-color: yellow;*/
 }
 .total--col2{
     display: flex;
@@ -288,7 +293,7 @@ header{
     height: 10rem;
     padding-left: 2rem;
     width: 20%;
-    background-color: rebeccapurple;
+    /*background-color: rebeccapurple;*/
 }
 .total--col3{
     display: flex;
@@ -299,7 +304,7 @@ header{
     color: darkred;
     padding-left: 2rem;
     width: 20%;
-    background-color: bisque;
+    /*background-color: bisque;*/
 }
 /*--------------------------------Checkout--------------------------------*/
 .checkout--row{
@@ -308,7 +313,7 @@ header{
     align-items: center;
     height: 10rem;
     width: 100vw;
-    background-color: khaki;
+    /*background-color: khaki;*/
 }
 .checkout--row--col1{
     display: flex;
@@ -316,7 +321,7 @@ header{
     align-items: center;
     height: 10rem;
     width: 45%;
-    background-color: blueviolet;
+    /*background-color: blueviolet;*/
 }
 .checkout--row--col2{
     display: flex;
@@ -324,7 +329,7 @@ header{
     align-items: center;
     height: 10rem;
     width: 45%;
-    background-color:tomato;
+    /*background-color:tomato;*/
 }
 .button--1{
     display: flex;
@@ -334,7 +339,7 @@ header{
     font-size: 2rem;
     font-weight: lighter;
     width: 40%;
-
+    cursor: pointer;
     border: solid 1px;
     border-radius: 3rem;
     transition: .5s;
@@ -347,11 +352,20 @@ header{
     font-size: 2rem;
     font-weight: lighter;
     width: 40%;
-
+    cursor: pointer;
     color: #5FCC63;
     border: solid 1px #5FCC63;
     border-radius: 3rem;
     transition: .5s;
+}
+.link{
+    font-size: 2rem;
+    font-weight: lighter;
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    color: #F4F5F7;
 }
 .button--2:hover{
     background-color: #5FCC63;
@@ -359,5 +373,5 @@ header{
 }
 .button--1:hover{
     background-color: black;
-    color: #F4F5F7;
+    color: #F4F5F7;!important;
 }

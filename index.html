@@ -5,6 +5,8 @@
     <title>Shopo</title>
     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lato" rel="stylesheet">
     <link href="./index.css" rel="stylesheet">
+    <script src="index.js"></script>
+    <script src="jquery-3.2.1.js"></script>
 </head>
 <body>
 
@@ -52,125 +54,24 @@
         </div>
 
     </div>
-    <div class="catalog">
+    <div class="catalog" >
         <header>
             <div class="heading">
                 Jeans
             </div>
-            <div class="header--icon--box">
+            <div class="header--icon--box" id="cart">
                 <img src="./img/shopping-cart.svg" class="icon">
+                <div class="cart--count" id="count">
+                     0
+                </div>
             </div>
             <div class="header--icon--box" style="margin-right: 1.5rem">
                 <img src="./img/magnifying-glass.svg" class="icon">
             </div>
         </header>
-        <div class="catalog--featured">
 
-        </div>
-        <div class="catalog--row">
-            <div class="item">
-                <img src="./img/jeans1.jpg" class="item--image">
-                <div class="item--detail">
-                    <div class="item--name">
-                        Mega Ripped Jeans
-                    </div>
-                    <div class="item--price">
-                        $14.99
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="./img/jeans2.jpg"class="item--image">
-                <div class="item--detail">
-                    <div class="item--name">
-                        Ripped Skinny Jeans
-                    </div>
-                    <div class="item--price">
-                        $24.99
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="./img/jeans3.jpg" class="item--image">
-                <div class="item--detail">
-                    <div class="item--name">
-                        Washed Skinny Jeans
-                    </div>
-                    <div class="item--price">
-                        $29.99
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="catalog--row">
-            <div class="item">
-                <img src="./img/jeans4.jpg" class="item--image">
-                <div class="item--detail">
-                    <div class="item--name">
-                        Vintage Skinny Jeans
-                    </div>
-                    <div class="item--price">
-                        $24.99
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="./img/jeans3.jpg"class="item--image">
-                <div class="item--detail">
-                    <div class="item--name">
-                        Mega Ripped Jeans
-                    </div>
-                    <div class="item--price">
-                        $19.99
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img  src="./img/jeans1.jpg"class="item--image">
-                <div class="item--detail">
-                    <div class="item--name">
-                        Washed Skinny Jeans
-                    </div>
-                    <div class="item--price">
-                        $44.99
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="catalog--row">
-            <div class="item">
-                <img src="./img/jeans2.jpg" class="item--image">
-                <div class="item--detail">
-                    <div class="item--name">
-                        Mega Ripped Jeans
-                    </div>
-                    <div class="item--price">
-                        $14.99
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img src="./img/jeans1.jpg" class="item--image">
-                <div class="item--detail">
-                    <div class="item--name">
-                        Ripped Skinny Jeans
-                    </div>
-                    <div class="item--price">
-                        $24.99
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <img  src="./img/jeans3.jpg" class="item--image">
-                <div class="item--detail">
-                    <div class="item--name">
-                        Vintage Skinny Jeans
-                    </div>
-                    <div class="item--price">
-                        $24.99
-                    </div>
-                </div>
-            </div>
+        <div class="Item--container" id="catalog">
+
         </div>
         <div class="subscribe">
 
