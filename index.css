@@ -74,8 +74,9 @@ header{
     align-items: center;
     height: 50%;
     width: 70%;
-    font-size: 3rem;
-    letter-spacing: 1rem;
+    font-size: 3.5rem;
+    letter-spacing: .5rem;
+    font-weight: lighter;
     /*background-color: beige;*/
 }
 
