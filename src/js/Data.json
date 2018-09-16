@@ -2,109 +2,109 @@
   {
     "id":"0",
     "name":"Skinny Ripped Jeans",
-    "url":"./img/jeans4.jpg",
+    "url":"./img/jeans1.jpg",
     "price":"51.99"
   },
   {
     "id":"1",
     "name":"Mega Ripped Jeans",
-    "url":"./img/jeans1.jpg",
+    "url":"./img/jeans2.jpg",
     "price":"14.99"
   },
   {
     "id":"2",
-    "name":"Ripped Skinny Jeans",
-    "url":"./img/jeans2.jpg",
+    "name":"Ripped fit Jeans",
+    "url":"./img/jeans3.jpg",
     "price":"24.99"
   },
   {
     "id":"3",
     "name":"Mega Ripped Jeans",
-    "url":"./img/jeans3.jpg",
+    "url":"./img/jeans4.jpg",
     "price":"19.99"
   },
   {
     "id":"4",
     "name":"Skinny Ripped Jeans",
-    "url":"./img/jeans4.jpg",
+    "url":"./img/jeans7.jpg",
     "price":"51.99"
   },
   {
     "id":"5",
     "name":"Mega Ripped Jeans",
-    "url":"./img/jeans1.jpg",
+    "url":"./img/jeans6.jpg",
     "price":"16.99"
   },
   {
     "id":"6",
     "name":"Ripped Skinny Jeans",
-    "url":"./img/jeans2.jpg",
+    "url":"./img/jeans1.jpg",
     "price":"34.99"
   },
   {
     "id":"7",
     "name":"Mega Ripped Jeans",
-    "url":"./img/jeans3.jpg",
+    "url":"./img/jeans8.jpg",
     "price":"13.99"
   },
   {
     "id":"8",
     "name":"Single Ripped Jeans",
-    "url":"./img/jeans1.jpg",
+    "url":"./img/jeans9.jpg",
     "price":"19.99"
   },
   {
     "id":"9",
     "name":"Super Ripped Jeans",
-    "url":"./img/jeans4.jpg",
+    "url":"./img/jeans5.jpg",
     "price":"11.99"
   },
   {
     "id":"10",
     "name":"Skinny Ripped Jeans",
-    "url":"./img/jeans4.jpg",
+    "url":"./img/jeans2.jpg",
     "price":"51.99"
   },
   {
     "id":"11",
     "name":"Mega Ripped Jeans",
-    "url":"./img/jeans1.jpg",
+    "url":"./img/jeans3.jpg",
     "price":"14.99"
   },
   {
     "id":"12",
     "name":"Ripped Skinny Jeans",
-    "url":"./img/jeans2.jpg",
+    "url":"./img/jeans4.jpg",
     "price":"24.99"
   },
   {
     "id":"13",
     "name":"Mega Ripped Jeans",
-    "url":"./img/jeans3.jpg",
+    "url":"./img/jeans7.jpg",
     "price":"19.99"
   },
   {
     "id":"14",
     "name":"Skinny Ripped Jeans",
-    "url":"./img/jeans4.jpg",
+    "url":"./img/jeans6.jpg",
     "price":"51.99"
   },
   {
     "id":"15",
     "name":"Mega Ripped Jeans",
-    "url":"./img/jeans1.jpg",
+    "url":"./img/jeans5.jpg",
     "price":"16.99"
   },
   {
     "id":"16",
     "name":"Ripped Skinny Jeans",
-    "url":"./img/jeans2.jpg",
+    "url":"./img/jeans8.jpg",
     "price":"34.99"
   },
   {
     "id":"17",
     "name":"Mega Ripped Jeans",
-    "url":"./img/jeans3.jpg",
+    "url":"./img/jeans9.jpg",
     "price":"13.99"
   }
 ]

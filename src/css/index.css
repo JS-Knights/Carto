@@ -51,8 +51,8 @@ header{
     background-color: #F4F5F7;
 }
 .icon{
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
 }
 .cart--count{
     display: flex;
@@ -65,8 +65,6 @@ header{
     color: black;
     height: auto;
 }
-
-
 
 /*-----------------------------------------LOGO------------------------------------------------*/
 .Logo--row{
@@ -158,12 +156,48 @@ header{
 }
 .catalog--featured{
     display:flex;
+    flex-flow: column;
     height: 60rem;
     margin-bottom: 1rem;
     width: 100%;
     /*background-color: lightgrey;*/
-    background-image: url("./img/jeans.jpg") ;
+    background-image: url("../img/jeans.jpg") ;
     background-size: cover;
+}
+.catalog--featured--heading {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 90%;
+    font-size: 6rem;
+    letter-spacing: 1px;
+    margin: 3rem 4rem;
+    color:white;
+}
+.catalog--featured--subheading{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 90%;
+    margin: 3rem 4rem;
+    font-weight: lighter;
+    font-size: 4rem;
+    /*background-color: blueviolet;*/
+    color:white;
+}
+.catalog--featured--Btn{
+    display: flex;
+    height: 10%;
+    width: 18%;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 4rem;
+    background: black;
+    color:white;
+    font-weight: lighter;
+    border-radius: 1rem;
+    font-size: 2.5rem;
 }
 .catalog--row{
     display:flex;
@@ -174,7 +208,7 @@ header{
     width: 100%;
     /*background-color: deepskyblue;*/
 }
-/* -----ITEM STYLES---- */
+/*------------------------ITEM STYLES---------------------*/
 .Item--container
 {
     display:flex;
@@ -196,7 +230,25 @@ header{
     transition: 1s;
 }
 .item--image:hover{
-    opacity: .6;
+    opacity: .7;
+}
+.item--add--btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 6rem;
+    width: 7rem;
+    background-color: black;
+    font-weight: lighter;
+    font-size: 2rem;
+    color: white;
+    border-radius: 1rem;
+    opacity: 0;
+    transform: translateY(15rem) translateX(12rem);
+}
+.item--add--btn:hover{
+    opacity: 1;
 }
 .item--detail{
     display:flex;
@@ -228,12 +280,11 @@ header{
 footer{
     display:flex;
     align-items: center;
-    justify-content: space-between;
-    position: relative;
-    padding-right: 10rem;
+    justify-content: center;
+    margin-right: 10rem;
     height: 30rem;
     width: 100%;
-
+    background-color: lightgrey;
 }
 .footer{
     display:flex;
@@ -241,13 +292,51 @@ footer{
     align-items: center;
     justify-content: space-between;
     height: 30rem;
-    width: 100%;
-    background-color: lightgrey;
+    width: 90%;
+    /*background-color: lightgrey;*/
 }
+/*.footer--col{*/
+    /*display:flex;*/
+    /*flex-flow: row;*/
+    /*height: 90%;*/
+    /*width: 30rem;*/
+    /*!*background-color: blueviolet;*!*/
+/*}*/
 .footer--col{
     display:flex;
-    flex-flow: row;
-    height: 90%;
-    width: 30rem;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 80%;
+    width: 25rem;
+    align-content: center;
+    text-align: center;
+
     /*background-color: blueviolet;*/
+}
+.button{
+    background:black;
+    color:white; height:3rem;
+    margin: .5rem;
+    font-size:2rem;
+}
+
+input{
+    font-size : 1.25rem;
+    padding : 1rem;
+    margin: .5rem;
+}
+.col--a{
+    padding : 1rem;
+    font-size : 2rem;
+    font-weight: lighter;
+    text-decoration: none;
+    color: black;
+}
+.col--item{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.col--heading{
+    font-size: 2.5rem;
+    font-weight: lighter;
 }

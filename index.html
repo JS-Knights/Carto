@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <title>Shopo</title>
     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Lato" rel="stylesheet">
-    <link href="./index.css" rel="stylesheet">
+    <link href="src/css/index.css" rel="stylesheet">
     <script src="index.js"></script>
-    <script src="jquery-3.2.1.js"></script>
+    <script src="src/js/jquery-3.2.1.js"></script>
 </head>
 <body>
 
@@ -60,16 +60,22 @@
                 Jeans
             </div>
             <div class="header--icon--box" id="cart">
-                <img src="./img/shopping-cart.svg" class="icon">
+                <img src="src/img/shopping-cart.svg" class="icon">
                 <div class="cart--count" id="count">
-                     0
                 </div>
             </div>
             <div class="header--icon--box" style="margin-right: 1.5rem">
-                <img src="./img/magnifying-glass.svg" class="icon">
+                <img src="src/img/magnifying-glass.svg" class="icon">
             </div>
         </header>
+        <div class="catalog--featured">
+            <div class="catalog--featured--heading" >New Arrivals</div>
+            <div class="catalog--featured--subheading">COLLECTION 2018</div>
+            <div class="catalog--featured--Btn">
+                SHOP NOW
+            </div>
 
+        </div>
         <div class="Item--container" id="catalog">
 
         </div>
@@ -79,13 +85,25 @@
         <footer>
             <div class="footer">
                 <div class="footer--col">
+                    <span class="col--heading">Contact Us</span>
+                    <input type="text" placeholder="Name">
+                    <input type="text" placeholder="Email">
+                    <input type="text" placeholder="Message">
+                    <div class="button">Submit</div>
+                </div>
+                <div class="footer--col">
+                    <span class="col--heading">About</span>
+                    <a href="#" class="col--a">About us</a>
+                    <a href="#" class="col--a">We're hiring</a>
+                    <a href=# class="col--a">Support</a>
+                    <a href="#" class="col--a">Help</a>
 
                 </div>
                 <div class="footer--col">
-
-                </div>
-                <div class="footer--col">
-
+                    <span class="col--heading">Store</span>
+                    <div class="col--item">Company Name</div>
+                    <div class="col--item">9528364012</div>
+                    <div class="col--item">ex@mail.com</div>
                 </div>
             </div>
         </footer>
