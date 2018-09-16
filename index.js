@@ -7,7 +7,12 @@ window.onload = function () {
 }
 
 let AddtoCart =  (ev) =>{
-    const i = cart.findIndex(obj => obj.id === ev.target.id);
+    let d = ev.target.id;
+    if(ev.target.id[0]==='b'||ev.target.id[0]==='i')
+    {
+        d=d.slice(d.length-1,d.length);
+    }
+    const i = cart.findIndex(obj => obj.id === d);
     console.log(i);
     if(i>=0)
     {
@@ -19,7 +24,7 @@ let AddtoCart =  (ev) =>{
         ]
     }
     else
-    cart.push({id:ev.target.id,quantity:1});
+    cart.push({id:d,quantity:1});
     SaveCart();
     console.log(cart)
     let length = 0;
@@ -81,7 +86,7 @@ let loadItems = () =>{
             <img src=${data[i].url} class="item--image" >
             <div class="item--add" id=${data[i].id}>
                 <div class="item--add--btn" id="btn--${data[i].id}">
-                <img src="img/shopping-cart-white.svg" class="icon">        
+                <img src="img/shopping-cart-white.svg" class="icon" id="img--${data[i].id}">        
                 </div>
                 </div>
                 <div class="item--detail">
@@ -98,7 +103,7 @@ let loadItems = () =>{
                <div class="item--add" id=${data[i + 1].id}>
             
                 <div class="item--add--btn" id="btn--${data[i + 1].id}">  
-                <img src="img/shopping-cart-white.svg" class="icon">            
+                <img src="img/shopping-cart-white.svg" class="icon" id="img--${data[i+2].id}">            
                 </div>
                 </div>
                 <div class="item--detail">
@@ -115,7 +120,7 @@ let loadItems = () =>{
             <div class="item--add" id=${data[i + 2].id}>
                 
                 <div class="item--add--btn" id="btn--${data[i + 2].id}">        
-                <img src="img/shopping-cart-white.svg" class="icon">      
+                <img src="img/shopping-cart-white.svg" class="icon" id="img--${data[i+2].id}">      
                 </div>
             </div>
                 <div class="item--detail">
@@ -133,3 +138,58 @@ let loadItems = () =>{
     });
 
 }
+
+// {
+//     "id":"9",
+//     "name":"Super Ripped Jeans",
+//     "url":"./img/jeans5.jpg",
+//     "price":"11.99"
+// },
+// {
+//     "id":"10",
+//     "name":"Skinny Ripped Jeans",
+//     "url":"./img/jeans2.jpg",
+//     "price":"51.99"
+// },
+// {
+//     "id":"11",
+//     "name":"Mega Ripped Jeans",
+//     "url":"./img/jeans3.jpg",
+//     "price":"14.99"
+// },
+// {
+//     "id":"12",
+//     "name":"Ripped Skinny Jeans",
+//     "url":"./img/jeans4.jpg",
+//     "price":"24.99"
+// },
+// {
+//     "id":"13",
+//     "name":"Mega Ripped Jeans",
+//     "url":"./img/jeans7.jpg",
+//     "price":"19.99"
+// },
+// {
+//     "id":"14",
+//     "name":"Skinny Ripped Jeans",
+//     "url":"./img/jeans6.jpg",
+//     "price":"51.99"
+// },
+// {
+//     "id":"15",
+//     "name":"Mega Ripped Jeans",
+//     "url":"./img/jeans5.jpg",
+//     "price":"16.99"
+// },
+// {
+//     "id":"16",
+//     "name":"Ripped Skinny Jeans",
+//     "url":"./img/jeans8.jpg",
+//     "price":"34.99"
+// },
+// {
+//     "id":"17",
+//     "name":"Mega Ripped Jeans",
+//     "url":"./img/jeans9.jpg",
+//     "price":"13.99"
+// }
