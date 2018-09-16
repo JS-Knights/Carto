@@ -109,7 +109,7 @@ let RefreshItems = () =>{
                 </div>
             </div>
             <div class="Detail--item--col2">
-                ${data[n].price}
+               $ ${data[n].price}
             </div>
             <div class="Detail--item--col3">
                 <div class="col3--row">
@@ -167,7 +167,7 @@ let loadItems = () =>{
                 </div>
             </div>
             <div class="Detail--item--col2">
-                ${data[n].price}
+                $ ${data[n].price}
             </div>
             <div class="Detail--item--col3">
                 <div class="col3--row">
