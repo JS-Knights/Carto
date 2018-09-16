@@ -225,26 +225,38 @@ header{
 }
 .item--image{
     display:flex;
-    height: 83%;
+    height: 33.5rem;
     width: 100%;
+    z-index: 1;
     transition: 1s;
 }
-.item--image:hover{
+.item--add{
+    display:flex;
+    position: absolute;
+    height: 33.5rem;
+    width: 30rem;
+    z-index: 2;
+    opacity: 0;
+    transition: .5s;
+}
+.item--add:hover{
+    background-color:#F4F5F7;
     opacity: .7;
 }
 .item--add--btn{
     display:flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: relative;
     height: 6rem;
+    z-index: 10;
     width: 7rem;
     background-color: black;
     font-weight: lighter;
     font-size: 2rem;
     color: white;
     border-radius: 1rem;
-    opacity: 0;
+    opacity: .6;
     transform: translateY(15rem) translateX(12rem);
 }
 .item--add--btn:hover{

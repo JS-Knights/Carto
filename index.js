@@ -54,22 +54,22 @@ let AddListeners = ()=>{
         let t = "btn--" +i;
         let z = document.getElementById(t);
         k.addEventListener('click', AddtoCart);
-        k.addEventListener('mouseover', (ev)=>{
-
-            let p = "btn--" + ev.target.id ;
-            console.log(p);
-            let o = document.getElementById(p)
-            console.log(o);
-            o.style.opacity =.6;
-        });
-        k.addEventListener('mouseleave', (ev)=>{
-
-            let p = "btn--" + ev.target.id ;
-            console.log(p);
-            let o = document.getElementById(p)
-            console.log(o);
-            o.style.opacity = 0;
-        });
+        // k.addEventListener('mouseover', (ev)=>{
+        //
+        //     let p = "btn--" + ev.target.id ;
+        //     console.log(p);
+        //     let o = document.getElementById(p)
+        //     console.log(o);
+        //     o.style.opacity =.6;
+        // });
+        // k.addEventListener('mouseleave', (ev)=>{
+        //
+        //     let p = "btn--" + ev.target.id ;
+        //     console.log(p);
+        //     let o = document.getElementById(p)
+        //     console.log(o);
+        //     o.style.opacity = 0;
+        // });
     }
 }
 let loadItems = () =>{
@@ -78,9 +78,11 @@ let loadItems = () =>{
             $("#catalog").append(`
         <div class="catalog--row">
             <div class="item">
-                <img src=${data[i].url} class="item--image" id=${data[i].id}>
+            <img src=${data[i].url} class="item--image" >
+            <div class="item--add" id=${data[i].id}>
                 <div class="item--add--btn" id="btn--${data[i].id}">
                 <img src="img/shopping-cart-white.svg" class="icon">        
+                </div>
                 </div>
                 <div class="item--detail">
                     <div class="item--name">
@@ -92,9 +94,12 @@ let loadItems = () =>{
                 </div>
             </div>
             <div class="item">
-                <img src=${data[i + 1].url} class="item--image" id=${data[i + 1].id}>
+           <img src=${data[i + 1].url} class="item--image" >
+               <div class="item--add" id=${data[i + 1].id}>
+            
                 <div class="item--add--btn" id="btn--${data[i + 1].id}">  
                 <img src="img/shopping-cart-white.svg" class="icon">            
+                </div>
                 </div>
                 <div class="item--detail">
                     <div class="item--name">
@@ -106,10 +111,13 @@ let loadItems = () =>{
                 </div>
             </div>
             <div class="item">
-                <img src=${data[i + 2].url} class="item--image" id=${data[i + 2].id}>
+            <img src=${data[i + 2].url} class="item--image">
+            <div class="item--add" id=${data[i + 2].id}>
+                
                 <div class="item--add--btn" id="btn--${data[i + 2].id}">        
                 <img src="img/shopping-cart-white.svg" class="icon">      
                 </div>
+            </div>
                 <div class="item--detail">
                     <div class="item--name">
                         ${data[i + 2].name}
