@@ -161,7 +161,7 @@ header{
     margin-bottom: 1rem;
     width: 100%;
     /*background-color: lightgrey;*/
-    background-image: url("../img/jeans.jpg") ;
+    background-image: url("img/jeans.jpg") ;
     background-size: cover;
 }
 .catalog--featured--heading {

@@ -3,7 +3,7 @@ window.onload = function () {
     loadItems();
     RetriveCart();
     var cartBox = document.getElementById("cart");
-    cartBox.addEventListener('click', ()=>{ window.location.href = "../../Cart.html"});
+    cartBox.addEventListener('click', ()=>{ window.location.href = "Cart.html"});
 }
 
 let AddtoCart =  (ev) =>{
@@ -80,7 +80,7 @@ let loadItems = () =>{
             <div class="item">
                 <img src=${data[i].url} class="item--image" id=${data[i].id}>
                 <div class="item--add--btn" id="btn--${data[i].id}">
-                <img src="../img/shopping-cart-white.svg" class="icon">        
+                <img src="img/shopping-cart-white.svg" class="icon">        
                 </div>
                 <div class="item--detail">
                     <div class="item--name">
@@ -94,7 +94,7 @@ let loadItems = () =>{
             <div class="item">
                 <img src=${data[i + 1].url} class="item--image" id=${data[i + 1].id}>
                 <div class="item--add--btn" id="btn--${data[i + 1].id}">  
-                <img src="../img/shopping-cart-white.svg" class="icon">            
+                <img src="img/shopping-cart-white.svg" class="icon">            
                 </div>
                 <div class="item--detail">
                     <div class="item--name">
@@ -108,7 +108,7 @@ let loadItems = () =>{
             <div class="item">
                 <img src=${data[i + 2].url} class="item--image" id=${data[i + 2].id}>
                 <div class="item--add--btn" id="btn--${data[i + 2].id}">        
-                <img src="../img/shopping-cart-white.svg" class="icon">      
+                <img src="img/shopping-cart-white.svg" class="icon">      
                 </div>
                 <div class="item--detail">
                     <div class="item--name">

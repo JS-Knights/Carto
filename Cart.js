@@ -114,13 +114,13 @@ let RefreshItems = () =>{
             <div class="Detail--item--col3">
                 <div class="col3--row">
                     <div class="icon--container" >
-                        <img src="../img/minus.svg" class="icon" id="minus--${n}">
+                        <img src="./img/minus.svg" class="icon" id="minus--${n}">
                     </div>
                     <div class="quantity">
                         ${q}
                     </div>
                     <div class="icon--container" >
-                        <img src="../img/plus.svg" class="icon" id="plus--${n}">
+                        <img src="./img/plus.svg" class="icon" id="plus--${n}">
                     </div>
                 </div>
             </div>
@@ -172,13 +172,13 @@ let loadItems = () =>{
             <div class="Detail--item--col3">
                 <div class="col3--row">
                     <div class="icon--container" >
-                        <img src="../img/minus.svg" class="icon" id="minus--${n}">
+                        <img src="./img/minus.svg" class="icon" id="minus--${n}">
                     </div>
                     <div class="quantity">
                         ${q}
                     </div>
                     <div class="icon--container" >
-                        <img src="../img/plus.svg" class="icon" id="plus--${n}">
+                        <img src="./img/plus.svg" class="icon" id="plus--${n}">
                     </div>
                 </div>
             </div>
