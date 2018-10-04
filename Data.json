@@ -52,5 +52,59 @@
     "name":"Single Ripped Jeans",
     "url":"./img/jeans9.jpg",
     "price":"19.99"
+  },
+  {
+    "id":"9",
+    "name":"White Dress Shirt",
+    "url":"./img/shirt1.jpg",
+    "price":"19.99"
+  },
+  {
+    "id":"10",
+    "name":"Green Button Shirt",
+    "url":"./img/shirt2.jpg",
+    "price":"23.99"
+  },
+  {
+    "id":"11",
+    "name":"Jamison Black Shirt",
+    "url":"./img/shirt3.jpg",
+    "price":"14.99"
+  },
+  {
+    "id":"12",
+    "name":"Sheldon Dolan's Summer Shirt",
+    "url":"./img/shirt4.jpg",
+    "price":"19.99"
+  },
+  {
+    "id":"13",
+    "name":"Womens White Shirt",
+    "url":"./img/shirt5.jpg",
+    "price":"19.99"
+  },
+  {
+    "id":"14",
+    "name":"Jamison Womans Shirt: Fall Edition",
+    "url":"./img/shirt6.jpg",
+    "price":"29.99"
+  },
+  {
+    "id":"15",
+    "name":"Cozy Sunday Shirt",
+    "url":"./img/shirt7.jpg",
+    "price":"21.99"
+  },
+  {
+    "id":"16",
+    "name":"Sheldon Dolan's Black Sweater",
+    "url":"./img/shirt8.jpg",
+    "price":"45.99"
+  },
+  {
+    "id":"17",
+    "name":"Womans Business Striped Shirt",
+    "url":"./img/shirt9.jpg",
+    "price":"27.99"
   }
 ]
