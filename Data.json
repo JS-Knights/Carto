@@ -107,4 +107,143 @@
     "url":"./img/shirt9.jpg",
     "price":"27.99"
   }
+  ,
+  {
+    "id":"18",
+    "name":"Red Black Sweater",
+    "url":"./img/Red-black-sweater.jpg",
+    "price":"23.99"
+  },
+  {
+    "id":"19",
+    "name":"Women Red Dress",
+    "url":"./img/Women-Red-Dress.jpg",
+    "price":"34.99"
+  },
+  {
+    "id":"20",
+    "name":"Hiking White Jacket",
+    "url":"./img/hiking-white-jacket.jpg",
+    "price":"64.99"
+  },
+  {
+    "id":"21",
+    "name":"Nike White Army Logo",
+    "url":"./img/nike-white-army-logo.jpg",
+    "price":"29.99"
+  },
+  {
+    "id":"22",
+    "name":"Grey Knot Shirt",
+    "url":"./img/grey-knot-shirt.jpeg",
+    "price":"17.99"
+  },
+  {
+    "id":"23",
+    "name":"Red Tomato Soup",
+    "url":"./img/red-tomato-soup.jpg",
+    "price":"45.99"
+  },
+  {
+    "id":"24",
+    "name":"Man Hunting Jacket",
+    "url":"./img/man-hunting-jacket.jpeg",
+    "price":"66.99"
+  },
+  {
+    "id":"25",
+    "name":"Marvel Shirt",
+    "url":"./img/marvel-shirt.jpg",
+    "price":"78.99"
+  },
+  {
+    "id":"26",
+    "name":"Crop Top Sweater",
+    "url":"./img/crop-top-sweater.jpg",
+    "price":"12.99"
+  },
+  {
+    "id":"27",
+    "name":"Brown Dress",
+    "url":"./img/brown-dress.jpg",
+    "price":"94.99"
+  },
+  {
+    "id":"28",
+    "name":"Blue Hipster Shirt",
+    "url":"./img/blue-hipster-shirt.jpg",
+    "price":"45.99"
+  },
+  {
+    "id":"29",
+    "name":"Womans Red Winter Jacket",
+    "url":"./img/women-red-winter-jacket.jpg",
+    "price":"127.99"
+  },
+  {
+    "id":"30",
+    "name":"Red Skirt",
+    "url":"./img/red-skirt.jpg",
+    "price":"37.99"
+  },
+  {
+    "id":"31",
+    "name":"Not Guilty Sweater",
+    "url":"./img/not-guilty-sweater.jpeg",
+    "price":"32.99"
+  },
+  {
+    "id":"32",
+    "name":"Yellow Ski Jacket",
+    "url":"./img/yellow-ski-jacket.jpg",
+    "price":"79.99"
+  },
+  {
+    "id":"33",
+    "name":"Alien Sweater",
+    "url":"./img/alien-sweater.jpg",
+    "price":"17.99"
+  },
+  {
+    "id":"34",
+    "name":"Womans Smart Legging",
+    "url":"./img/women-smart-legging.jpg",
+    "price":"12.99"
+  },
+  {
+    "id":"35",
+    "name":"Red Hipster Shirt",
+    "url":"./img/red-hipster-shirt.jpg",
+    "price":"7.99"
+  },
+  {
+    "id":"36",
+    "name":"Red Pocket Hoodie",
+    "url":"./img/red-pocket-hoodie.jpg",
+    "price":"177.99"
+  },
+  {
+    "id":"37",
+    "name":"White Skate Hoodie",
+    "url":"./img/white-skate-hoodie.jpg",
+    "price":"207.99"
+  },
+  {
+    "id":"38",
+    "name":"Pink Jacket",
+    "url":"./img/pink-jacket.jpg",
+    "price":"1255.99"
+  },
+  {
+    "id":"39",
+    "name":"Women Yellow Gym Set",
+    "url":"./img/women-yellow-gyim-set.jpg",
+    "price":"52.99"
+  },
+  {
+    "id":"40",
+    "name":"Dude's Cool Shirt",
+    "url":"./img/dudes-cool-shirt.jpg",
+    "price":"47.99"
+  }
 ]
