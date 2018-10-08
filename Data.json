@@ -245,5 +245,11 @@
     "name":"Dude's Cool Shirt",
     "url":"./img/dudes-cool-shirt.jpg",
     "price":"47.99"
+  },
+  {
+    "id":"0",
+    "name":"Skinny Ripped Jeans",
+    "url":"./img/jeans1.jpg",
+    "price":"51.99"
   }
 ]
