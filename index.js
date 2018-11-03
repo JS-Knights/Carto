@@ -64,8 +64,9 @@ let AddListeners = ()=>{
 }
 let loadItems = () =>{
     $.getJSON('data.json',(data) =>{
-        // console.log(data);
-        for(let i=0;i<data.length;i+=3) {
+        //console.log(data.length);
+        //var size = data.length;
+        for(let i=0;i<data.length-3;i+=3) {
              // console.log("hello i am in");
             $("#catalog").append(`
         <div class="catalog--row">
