@@ -1,0 +1,403 @@
+/*---------Primary Colors------------
+#FFFFFF
+#F4F5F7
+#898989
+#000000
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    display:flex;
+    flex-flow: row;
+}
+/*-----------------------------------------Header------------------------------------------------*/
+header{
+    display:flex;
+    position:relative;
+    align-items: center;
+    justify-content: flex-end;
+    height: 10rem;
+    width: 100%;
+    z-index: 2;
+    background-color: white;
+}
+.heading{
+    display:flex;
+    height: auto;
+    width: 100%;
+    padding: 1rem;
+    font-size: 3rem;
+    font-weight: lighter;
+    color:#898989;
+
+}
+.header--icon--box
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 8rem;
+    width: 10rem;
+    transition: .5s;
+    /*background-color: lightgrey;*/
+}
+.header--icon--box:hover{
+    background-color: #F4F5F7;
+}
+.icon{
+    height: 40%;
+    width: 40%;
+}
+.cart--count{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    text-decoration: none;
+    color: black;
+    height: auto;
+}
+
+/*-----------------------------------------LOGO------------------------------------------------*/
+.Logo--row{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-flow: row;
+    height: 10rem;
+    width: 100%;
+    padding-left: 6rem;
+    /*background-color: blue;*/
+}
+.Logo--box{
+    display:flex;
+    padding: 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    height: 50%;
+    width: 70%;
+    font-size: 3.5rem;
+    letter-spacing: .5rem;
+    font-weight: lighter;
+    /*background-color: beige;*/
+}
+
+/*---------------------------------------MENU SECTION---------------------------------------*/
+.Menu{
+    display:flex;
+    position:fixed;
+    flex-flow: column;
+    height: 100%;
+    width: 20%;
+    /*background-color: springgreen;*/
+}
+.Menu--listbox{
+    display:flex;
+    flex-flow: column;
+    height: 35rem;
+    width: auto;
+    margin-left: 6rem;
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    /*background-color: orange;*/
+}
+.Menu--listbox--item{
+    display:flex;
+    align-items: center;
+    padding: 1rem;
+    height: 17%;
+    width: auto;
+    font-size: 2rem;
+    color: #898989;
+    letter-spacing: 1px;
+    /*background-color: darkblue;*/
+    transition: .5s;
+}
+.Menu--listbox--item:hover{
+
+    background-color: #F4F5F7;
+}
+.Menu--footer{
+    display:flex;
+    flex-flow: column;
+    height: 10rem;
+    width: auto;
+    margin-left: 6rem;
+    /*background-color: orange;*/
+}
+.Menu--footer--item{
+    display:flex;
+    align-items: center;
+    padding: 1rem;
+    height: 15%;
+    width: auto;
+    font-size: 1.8rem;
+    /*background-color: darkblue;*/
+}
+
+/*---------------------------------------Catalog SECTION---------------------------------------*/
+.catalog{
+    display:flex;
+    flex-flow: column;
+
+    margin-left: 20%;
+    padding-right: 10rem;
+    height: 100%;
+    width: 80vw;
+
+}
+.catalog--featured{
+    display:flex;
+    flex-flow: column;
+    height: 60rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    /*background-color: lightgrey;*/
+    background-image: url("img/jeans.jpg") ;
+    background-size: cover;
+}
+.catalog--featured--heading {
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 90%;
+    font-size: 6rem;
+    letter-spacing: 1px;
+    margin: 3rem 4rem;
+    color:white;
+}
+.catalog--featured--subheading{
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 90%;
+    margin: 3rem 4rem;
+    font-weight: lighter;
+    font-size: 4rem;
+    /*background-color: blueviolet;*/
+    color:white;
+}
+.catalog--featured--Btn{
+    display: flex;
+    height: 10%;
+    width: 18%;
+    min-width: 18rem;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 4rem;
+    background: black;
+    color:white;
+    font-weight: lighter;
+    border-radius: 1rem;
+    font-size: 2.5rem;
+}
+.catalog--row{
+    display:flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 40rem;
+    width: 100%;
+    /*background-color: deepskyblue;*/
+}
+/*------------------------ITEM STYLES---------------------*/
+.Item--container
+{
+    display:flex;
+    flex-flow: column;
+    height: 100%;
+    width: 100%;
+}
+.item{
+    display:flex;
+    flex-flow: column;
+    height: 40rem;
+    width: 30rem;
+    /*background-color: lightcoral;*/
+}
+.item--image{
+    display:flex;
+    height: 33.5rem;
+    width: 100%;
+    z-index: 1;
+    transition: 1s;
+}
+.item--add{
+    display:flex;
+    position: absolute;
+    height: 33.5rem;
+    width: 30rem;
+    z-index: 2;
+    opacity: 0;
+    transition: .5s;
+}
+.item--add:hover{
+    background-color:#F4F5F7;
+    opacity: .7;
+}
+.item--add--btn{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 6rem;
+    z-index: 10;
+    width: 7rem;
+    background-color: black;
+    font-weight: lighter;
+    font-size: 2rem;
+    color: white;
+    border-radius: 1rem;
+    opacity: .6;
+    transform: translateY(15rem) translateX(12rem);
+}
+.item--add--btn:hover{
+    opacity: 1;
+}
+.item--detail{
+    display:flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 17%;
+    width: 100%;
+    padding: 1rem 0px;
+    margin-bottom: .5rem;
+    /*background-color: cornflowerblue;*/
+}
+.item--name{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+}
+.item--price
+{   display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: lighter;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+}
+/*----------------------------------------------FOOTER------------------------------------------------*/
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10rem;
+    height: 30rem;
+    width: 100%;
+    background-color: lightgrey;
+}
+.footer{
+    display:flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 30rem;
+    width: 90%;
+    /*background-color: lightgrey;*/
+}
+/*.footer--col{*/
+    /*display:flex;*/
+    /*flex-flow: row;*/
+    /*height: 90%;*/
+    /*width: 30rem;*/
+    /*!*background-color: blueviolet;*!*/
+/*}*/
+.footer--col{
+    display:flex;
+    flex-flow: column;
+    justify-content: space-between;
+    height: 80%;
+    width: 25rem;
+    align-content: center;
+    text-align: center;
+
+    /*background-color: blueviolet;*/
+}
+.button{
+    background:black;
+    color:white; height:3rem;
+    margin: .5rem;
+    font-size:2rem;
+}
+
+input{
+    font-size : 1.25rem;
+    padding : 1rem;
+    margin: .5rem;
+}
+.col--a{
+    padding : 1rem;
+    font-size : 2rem;
+    font-weight: lighter;
+    text-decoration: none;
+    color: black;
+}
+.col--item{
+    font-size: 2rem;
+    font-weight: lighter;
+}
+.col--heading{
+    font-size: 2.5rem;
+    font-weight: lighter;
+}
+@media only screen and (max-width: 1100px) {
+  /*---------LOGO---------*/
+  .Logo--row{
+    padding-left: 10rem;
+    width: auto;
+  }
+  /*---------MENU---------*/
+  .Menu{
+    position:fixed;
+    flex-flow: row;
+    height: 10rem;
+    width: 100%;
+    align-items: space-around;
+    background-color: white;
+    z-index: 3;
+  }
+  .Menu--listbox{
+    flex-flow: row;
+    height: 8rem;
+    margin: 1rem;
+    flex-wrap: wrap;
+    align-items: center;
+    overflow-y: scroll;
+  }
+  .Menu--listbox::-webkit-scrollbar {
+    width: 1rem;  /* remove scrollbar space */
+  }
+  /* optional: show position indicator in red */
+  .Menu--listbox::-webkit-scrollbar-thumb {
+    background: lightgrey;
+  }
+
+  .Menu--listbox--item{
+    height: 5rem;
+  }
+  .Menu--footer{
+    display: none;
+  }
+  /*---------CATALOG---------*/
+  .catalog{
+      margin-left: 0rem;
+      margin-top: 10rem;
+      padding-left: 10rem;
+      padding-right: 10rem;
+      height: 100%;
+      width: 80vw;
+  }
+}

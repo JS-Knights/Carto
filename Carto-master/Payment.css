@@ -1,0 +1,128 @@
+html,
+body {
+  margin: 0 !important ;
+  padding: 0 !important;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+._container {
+  width: 100% !important;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 25% 75%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.side {
+  display: block;
+  grid-column: 1/2;
+  background-color: #f9f9f9;
+  height: 100%;
+  padding: 2.5em;
+}
+.main {
+  height: 100%;
+  grid-column: 2/3;
+  text-align: center;
+  padding: 2.5em;
+}
+
+.side h4 {
+  font-size: 1.25em;
+  margin-bottom: 1em;
+  letter-spacing: 3px;
+  color: #a5a5a5;
+  font-weight: lighter;
+}
+.price {
+  float: right;
+  font-size: 0.8em;
+  font-weight: lighter;
+  color: #767676;
+}
+
+.side-title {
+  text-align: center;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 3.5em;
+}
+.main-title {
+  text-align: center;
+  font-weight: lighter;
+  margin-bottom: 2em;
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 0.1fr 0.5fr;
+  margin-top: 0;
+  width: 60%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+hr {
+  grid-column: 1/3;
+}
+.total-title {
+  text-align: left;
+  font-size: 1.5em;
+  font-weight: normal;
+  color: #747474;
+  margin-top: 0.7em;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+hr {
+  width: 100%;
+}
+.hr1 {
+  align-self: start;
+  grid-row: 2/3;
+  margin: 0;
+}
+.hr2 {
+  grid-row: 3/3;
+}
+.sub {
+  text-align: left !important;
+  margin-top: 3.8em;
+  margin-left: 0.25em;
+  font-size: 0.9em;
+  font-style: italic;
+  color: #1cc21c;
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+.total-price {
+  text-align: right;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  font-weight: lighter;
+  font-size: 2.2em;
+  margin-top: 0.5em;
+  color: #757575;
+}
+.total-price span {
+  font-weight: normal;
+}
+
+button {
+  align-self: center;
+}
+
+form {
+  grid-column: 1/3;
+  grid-row: 4/4;
+  text-align: left;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #a7a7a7;
+  font-size: 0.8em;
+}

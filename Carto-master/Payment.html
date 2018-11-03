@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="Payment.css" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  <title>Payment</title>
+</head>
+<body>
+  <div class="_container">
+    <div class="side">
+
+      <h3 class="side-title">
+        Your Items
+      </h3>
+      <h4>ITEMS
+        <span class="price">
+          <b>4</b>
+          <i class="fa fa-shopping-cart"></i>
+        </span>
+      </h4>
+      <p><a href="#">Headphone</a> <span class="price">$15</span></p>
+      <p><a href="#">JAM Speaker</a> <span class="price">$5</span></p>
+      <p><a href="#">Redbull</a> <span class="price">$8</span></p>
+      <p><a href="#">More Redbull</a> <span class="price">$2</span></p>
+      <hr>
+      <p>Total <span class="price" style="color:black"><b>$30</b></span></p>
+
+    </div>
+    <div class="main">
+      <section class="content">
+        <h3 class="main-title">
+          let's check you out!
+        </h3>
+        <hr class="hr1">
+        <p class="total-title">Total billed</p> <br>
+        <p class="sub">Saving $20</p>
+        <h2 class="total-price">
+          <span>$</span>30
+        </h2>
+        <hr class="hr2">
+
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-12">
+              <label for="inputEmail4">name on card</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="Khaled Albarawy">
+            </div>
+            <div class="form-group col-md-12">
+              <label for="inputPassword4">card number</label>
+              <input type="password" class="form-control" id="inputPassword4" placeholder="0000 0000 0000">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group col-md-4">
+              <label for="inputAddress">Expiry date (mm yyyy)</label>
+              <input type="text" class="form-control" id="inputAddress" placeholder="MM">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputAddress2">_</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="YY">
+            </div>
+            <div class="form-group col-md-4">
+              <label for="inputAddress2">cvc / cvv</label>
+              <input type="text" class="form-control" id="inputAddress2" placeholder="3 or 4 digit number">
+            </div>
+          </div>
+          <div class="form-row">
+
+          <div class="form-group col-md-6">
+            <label for="inputCity">zip</label>
+            <input type="text" class="form-control" id="inputCity">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputState">country</label>
+            <select id="inputState" class="form-control">
+              <option selected>Egypt</option>
+              <option>...</option>
+            </select>
+          </div>
+        </div>
+
+          <button type="submit" class="btn btn-success">CHECK OUT</button>
+        </form>
+
+
+      </section>
+
+
+    </div>
+  </div>
+</body>
+</html>
