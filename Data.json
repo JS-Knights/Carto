@@ -245,5 +245,24 @@
     "name":"Dude's Cool Shirt",
     "url":"./img/dudes-cool-shirt.jpg",
     "price":"47.99"
+  },
+  {
+    "id":"41",
+    "name":"shirt shirt",
+    "url":"./img/sport-t-shirts-500x500.jpg",
+    "price":"47.99"
+  },
+  {
+    "id":"42",
+    "name":"shirt shirt",
+    "url":"./img/sports-t-shirts-500x500.jpg",
+    "price":"47.99"
+  },
+  {
+    "id":"43",
+    "name":"vshape shirt",
+    "url":"./img/81A9r-kog+L._UL1500_.jpg",
+    "price":"47.99"
   }
 ]
+
