@@ -15,6 +15,10 @@ header{
     align-items: center;
     height: 10rem;
     width: 100vw;
+  padding-left: 5vw;
+box-sizing: border-box;
+padding-right: 5vw;
+	justify-content: space-between;
     /*background-color:red;*/
 }
 /*---------------------Logo------------------------*/
@@ -24,8 +28,8 @@ header{
     align-items:flex-start;
     flex-flow:column;
     height: 10rem;
-    width: 20%;
-    padding-left: 6rem;
+  //  width: 20%;
+ //   padding-left: 5%;
     /*background-color:tan;*/
 }
 .Logo--box{
@@ -34,7 +38,7 @@ header{
     justify-content: flex-start;
     align-items: center;
     height: 50%;
-    width: 90%;
+  //  width: 90%;
     font-size: 3.5rem;
     letter-spacing: .5rem;
     font-weight: lighter;
@@ -44,7 +48,7 @@ header{
 .heading{
     display:flex;
     height: auto;
-    width: 80%;
+  //  width: 80%;
     padding: 1rem;
     font-size: 3rem;
     font-weight: lighter;
@@ -57,8 +61,9 @@ header{
     align-items: center;
     justify-content: center;
     height: 8rem;
-    width: 8rem;
+  //  width: 8rem;
     transition: .5s;
+	justify-content: flex-end;
     /*background-color: lightgrey;*/
 }
 .header--icon--box:hover{
@@ -66,7 +71,8 @@ header{
 }
 .header--icon{
     height: 40%;
-    width: 40%;
+  //  width: 40%;
+  margin-right:1rem;
 }
 /*-------------------------Detail-----------------------------*/
 .Detail{
@@ -91,7 +97,7 @@ header{
 .Detail--heading--col1{
     display: flex;
     height: 7rem;
-    padding-left: 2rem;
+  //  padding-left: 2rem;
     align-items: center;
     font-size: 2.5rem;
     width: 60%;
@@ -332,26 +338,30 @@ header{
     /*background-color:tomato;*/
 }
 .button--1{
+	padding-left:1rem;
+	padding-right: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 5rem;
     font-size: 2rem;
     font-weight: lighter;
-    width: 40%;
+  //  width: 40%;
     cursor: pointer;
     border: solid 1px;
     border-radius: 3rem;
     transition: .5s;
 }
 .button--2{
+	padding-left:1rem;
+	padding-right: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 5rem;
     font-size: 2rem;
     font-weight: lighter;
-    width: 40%;
+   // width: 40%;
     cursor: pointer;
     color: #5FCC63;
     border: solid 1px #5FCC63;
