@@ -151,7 +151,7 @@ header{
     margin-left: 20%;
     padding-right: 10rem;
     height: 100%;
-    width: 80vw;
+    width: 85vw;
 
 }
 .catalog--featured{
@@ -163,6 +163,7 @@ header{
     /*background-color: lightgrey;*/
     background-image: url("img/jeans.jpg") ;
     background-size: cover;
+    
 }
 .catalog--featured--heading {
     display: flex;
@@ -292,39 +293,22 @@ header{
 /*----------------------------------------------FOOTER------------------------------------------------*/
 footer{
     display:flex;
-    align-items: center;
-    justify-content: center;
-    margin-right: 10rem;
-    height: 30rem;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
     width: 100%;
     background-color: lightgrey;
 }
-.footer{
-    display:flex;
-    flex-flow: row;
-    align-items: center;
-    justify-content: space-between;
-    height: 30rem;
-    width: 90%;
-    /*background-color: lightgrey;*/
-}
-/*.footer--col{*/
-    /*display:flex;*/
-    /*flex-flow: row;*/
-    /*height: 90%;*/
-    /*width: 30rem;*/
-    /*!*background-color: blueviolet;*!*/
-/*}*/
+
 .footer--col{
     display:flex;
-    flex-flow: column;
+    flex-direction: column;
     justify-content: space-between;
-    height: 80%;
-    width: 25rem;
+    height: 100%;
+    flex: 1 1 0;
     align-content: center;
     text-align: center;
-
-    /*background-color: blueviolet;*/
+    margin: 10px;
 }
 .button{
     background:black;
@@ -393,11 +377,14 @@ input{
   }
   /*---------CATALOG---------*/
   .catalog{
-      margin-left: 0rem;
+    /*  margin-left: 0rem;
       margin-top: 10rem;
       padding-left: 10rem;
       padding-right: 10rem;
+    */
+      padding: 0;
+      margin: 0 auto;
       height: 100%;
-      width: 80vw;
+      width: 90vw;
   }
 }
