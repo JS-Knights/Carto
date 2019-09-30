@@ -125,5 +125,10 @@ let loadItems = () =>{
         AddListeners();
     });
     // console.log("hello i am out ")
-
+    function Payment()
+    {
+        console.log("botton clicked");
+    }
 }
+
+
