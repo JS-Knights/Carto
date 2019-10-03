@@ -9,7 +9,8 @@
     <script src="index.js"></script>
     <link href="toastr.css" rel="stylesheet"/>
     <script src="toastr.js"></script>
-    <script src="src/jquery-3.2.1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="previewscript.js"></script>
 </head>
 <body>
 
@@ -22,25 +23,32 @@
             </div>
         </div>
         <div class="Menu--listbox">
-            <div class="Menu--listbox--item">
+            <div id = "1" class="Menu--listbox--item">
+                <img src="img/blue-hipster-shirt.jpg" id = "preview" class="shirt">
                 Shirts
             </div>
-            <div class="Menu--listbox--item">
+            <div id = "2" class="Menu--listbox--item">
+                <img src="img/brown-dress.jpg" id = "preview" class="dress">
                 Dresses
             </div>
-            <div class="Menu--listbox--item">
+            <div id = "3" class="Menu--listbox--item">
+                <img src="img/jeans8.jpg" id = "preview" class="jean">
                 Jeans
             </div>
-            <div class="Menu--listbox--item">
+            <div id = "4" class="Menu--listbox--item">
+                <img src="img/yellow-ski-jacket.jpg" id = "preview" class="jacket">
                 Jackets
             </div>
-            <div class="Menu--listbox--item">
+            <div id = "5" class="Menu--listbox--item">
+                <img src="img/women-yellow-gym-set.jpg" id = "preview" class="gymwear">
                 Gymwear
             </div>
-            <div class="Menu--listbox--item">
+            <div id = "6" class="Menu--listbox--item">
+                <img src="img/blazers.jpg" id = "preview" class="blazer">
                 Blazers
             </div>
-            <div class="Menu--listbox--item">
+            <div id = "7" class="Menu--listbox--item">
+                <img src="img/shoes.jpg" id = "preview" class="shoes">
                 Shoes
             </div>
         </div>
@@ -63,7 +71,7 @@
                 Jeans
             </div>
             <div class="header--icon--box" id="cart">
-                <img src="img/shopping-cart.svg" class="icon">
+                <a href = "Cart.html"><img src="img/shopping-cart.svg" class="icon"></a>
                 <div class="cart--count" id="count">
                 </div>
             </div>

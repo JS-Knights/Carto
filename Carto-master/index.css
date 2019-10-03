@@ -200,6 +200,11 @@ header{
     border-radius: 1rem;
     font-size: 2.5rem;
 }
+.addItem{
+    color: blue;
+    background: lightblue;
+}
+
 .catalog--row{
     display:flex;
     flex-flow: row;
@@ -400,4 +405,16 @@ input{
       height: 100%;
       width: 80vw;
   }
+}
+
+
+/*-----------PREVIEW ID---------------------------------------------*/
+#preview{
+    position: absolute;
+    left: 370%;
+    top: 20%;
+    opacity: 0.8;
+    border-radius: 50px;
+    height: 50%;
+    width: 100%;
 }
