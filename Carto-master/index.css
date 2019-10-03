@@ -401,3 +401,14 @@ input{
       width: 80vw;
   }
 }
+
+/*---------------------------------------*/
+
+#preview{
+    position:absolute;
+    top: 40%;
+    left:400%;
+    width:100%;
+    height:50%;
+    border-radius: 50px
+}
