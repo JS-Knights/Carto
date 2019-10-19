@@ -29,6 +29,10 @@ $breakpoint argument choices:
     font-family: 'Lato', sans-serif;
 }
 
+a:visited {
+  text-decoration: none;
+}
+
 .container{
     display:flex;
     flex-flow: row;
