@@ -26,6 +26,7 @@ header{
     height: 10rem;
     width: 20%;
     padding-left: 6rem;
+    margin-left: 3rem;
     /*background-color:tan;*/
 }
 .Logo--box{
@@ -333,8 +334,10 @@ header{
 }
 .button--1{
     font-size: 2rem;
+    text-align: center;
     font-weight: lighter;
     padding: 1.5rem 1.2rem;
+    width: 150px;
     cursor: pointer;
     border: solid 1px;
     border-radius: 3rem;
@@ -352,6 +355,14 @@ header{
     font-size: 2rem;
     font-weight: lighter;
     padding: 1.5rem 1.2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 5rem;
+    font-size: 2rem;
+    font-weight: lighter;
+    width: 150px;
     cursor: pointer;
     border: solid 1px;
     border-radius: 3rem;
@@ -377,4 +388,23 @@ header{
 .button--1:hover{
     background-color: black;
     color: #F4F5F7;!important;
+}
+
+
+      @media screen and (max-width: 768px) {
+    /*---------------------Logo------------------------*/
+.Logo--col{
+    height: 8rem;
+    width: 15%;
+    margin: auto;
+}
+
+.Logo--box{
+    font-size: 3rem;
+}
+
+.heading{
+    font-size: 2.5rem;
+    margin-left: 10%;
+}
 }
