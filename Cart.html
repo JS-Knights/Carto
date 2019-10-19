@@ -49,13 +49,19 @@
             </div>
         </div>
         <div class="checkout--row--col2">
-            <div class="button--2">
+            <div class="button--2" onclick="goToPaymentScreen()">
                 Proceed to Checkout
             </div>
         </div>
     </div>
 
 </div>
-
+    <script type="text/javascript">
+        function goToPaymentScreen() {
+            let url = window.location.href;
+            let replacdUrl = url.substr(0,url.lastIndexOf('/')); 
+            window.location.href = replacdUrl+'/Payment.html';
+        }
+    </script>
 </body>
 </html>
