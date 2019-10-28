@@ -352,7 +352,17 @@ header{
     font-weight: lighter;
     border-radius: 1rem;
     font-size: 2.5rem;
+    transition: all .5s ease-out;  
 }
+
+/* hover effect */
+.catalog--featured--Btn:hover {
+  color: black;
+  background-color: white;
+}
+
+
+
 .catalog--row{
     display:flex;
     flex-flow: row;
