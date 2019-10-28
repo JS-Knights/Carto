@@ -10,8 +10,7 @@ let SaveCart = ()=> {
 }
 let RetriveCart = ()=> {
     let getcart = localStorage.getItem("Cart");
-    if(getcart)
-    {
+    if(getcart){
         cart = JSON.parse(getcart);
         // console.log(cart);
     }
@@ -33,8 +32,7 @@ let RemoveFromCart =  (ev) =>{
     var r = ev.target.id.slice(ev.target.id.length - 1,ev.target.id.length)
 
     const i = cart.findIndex(obj => obj.id === r);
-    if(cart[i].quantity<2)
-    {
+    if(cart[i].quantity<2){
         cart.splice(i,1);
     }
     else
@@ -61,7 +59,7 @@ let AddtoCart =  (ev) =>{
     // console.log(cart)
 }
 let AddListeners = ()=>{
-    for(let i =0;i<cart.length;i++)
+    for(let i =0;i<cart.length;i{
     {
         let j = "minus--" + cart[i].id;
         let l = "plus--" + cart[i].id;
@@ -155,8 +153,7 @@ let loadItems = () =>{
     $.getJSON('Data.json',(data) =>{
         // itemlist = data;
         let cost = 0;
-        for(let i=0;i<cart.length;i++)
-        {
+        for(let i=0;i<cart.length;i++){
             var n = Number(cart[i].id);
             console.log(cart);
             var q = Number(cart[i].quantity);

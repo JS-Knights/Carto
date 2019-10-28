@@ -1,2 +1,2 @@
 # Carto
-It’s a frontend design for shopping website with basic html CSS and JavaScript.
+Itâ€™s a frontend design for shopping website with basic Html,CSS and JavaScript.
