@@ -129,7 +129,7 @@
   {
     "id":"21",
     "name":"Nike White Army Logo",
-    "url":"./img/nike-white-army-logo.jpg",
+    "url":"./img/nike-white-army.jpg",
     "price":"29.99"
   },
   {
@@ -237,7 +237,7 @@
   {
     "id":"39",
     "name":"Women Yellow Gym Set",
-    "url":"./img/women-yellow-gyim-set.jpg",
+    "url":"./img/women-yellow-gym-set.jpg",
     "price":"52.99"
   },
   {
@@ -263,6 +263,12 @@
     "name":"V-Neck Shirt",
     "url":"./img/81A9r-kog+L._UL1500_.jpg",
     "price":"47.99"
+  },
+  {
+    "id":"44",
+    "name":"Blue Jeans",
+    "url":"./img/pepe1.jpg",
+    "price":"9.99"
   }
 ]
 
