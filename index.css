@@ -173,7 +173,7 @@ header{
   display: none; }
 
 .navigation__button {
-  background-color: lightgrey;
+  background-color: black;
   height: 7rem;
   width: 7rem;
   position: fixed;
@@ -242,7 +242,7 @@ header{
   color: #FFF;
   text-decoration: none;
   text-transform: lowercase;
-  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #FFF 50%);
+  //background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #FFF 50%);
   background-size: 230%;
   transition: all .4s; }
   .navigation__link:link span, .navigation__link:visited span {
@@ -251,7 +251,7 @@ header{
 
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
-  color: lightgrey;
+  color: black;
   transform: translateX(1rem); }
 
 .navigation__checkbox:checked ~ .navigation__background {
