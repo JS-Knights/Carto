@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
 <link rel="stylesheet" href="Payment.css">
 </head>
 <body>
@@ -11,8 +11,10 @@
 <div class="row">
   <div class="col-75">
     <div class="container">
-      <form action="/action_page.php">
-      
+      <form action="/action_page.php" method="POST" target="_self">
+      <!-- Contributor @24Taylor: 
+        * Updated Form to include Method="POST" to ensure sensitive information captured on the payment page form is not visible in the URL once form has been submitted
+        * Also Updated Form element so that the 'result' page for submitting the form/ clicking on the "continue to checkout" button, opens in the same tab instead of a different one-->
         <div class="row">
           <div class="col-50">
             <h3>Billing Address</h3>
@@ -20,9 +22,9 @@
             <input type="text" id="fname" name="firstname" placeholder="Mira Garcia">
             <label for="email"><i class="fa fa-envelope"></i> Email</label>
             <input type="text" id="email" name="email" placeholder="abc@example.com">
-            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <label for="adr"><i class="fas fa-home"></i> Address</label>
             <input type="text" id="adr" name="address" placeholder="600 W. 15th Street">
-            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <label for="city"><i class="fas fa-city"></i> City</label>
             <input type="text" id="city" name="city" placeholder="San Francisco">
 
             <div class="row">
@@ -41,10 +43,11 @@
             <h3>Payment</h3>
             <label for="fname">Accepted Cards</label>
             <div class="icon-container">
-              <i class="fa fa-cc-visa" style="color:navy;"></i>
-              <i class="fa fa-cc-amex" style="color:blue;"></i>
-              <i class="fa fa-cc-mastercard" style="color:red;"></i>
-              <i class="fa fa-cc-discover" style="color:orange;"></i>
+              <i class="fab fa-cc-visa" style="color:navy;"></i>
+              <i class="fab fa-cc-amex" style="color:blue;"></i>
+              <i class="fab fa-cc-mastercard" style="color:red;"></i>
+              <i class="fab fa-cc-discover" style="color:orange;"></i>
+              <i class="fab fa-cc-apple-pay"></i>
             </div>
             <label for="cname">Name on Card</label>
             <input type="text" id="cname" name="cardname" placeholder="Mira Garcia">

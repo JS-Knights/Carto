@@ -332,31 +332,34 @@ header{
     /*background-color:tomato;*/
 }
 .button--1{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5rem;
     font-size: 2rem;
     font-weight: lighter;
-    width: 40%;
+    padding: 1.5rem 1.2rem;
     cursor: pointer;
     border: solid 1px;
     border-radius: 3rem;
     transition: .5s;
+    text-decoration: none;
+    text-align: center;
 }
+
+.button--1:visited {
+    text-decoration: none;
+    color: black;
+}
+
 .button--2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 5rem;
     font-size: 2rem;
     font-weight: lighter;
-    width: 40%;
+    padding: 1.5rem 1.2rem;
     cursor: pointer;
-    color: #5FCC63;
-    border: solid 1px #5FCC63;
+    border: solid 1px;
     border-radius: 3rem;
     transition: .5s;
+    text-decoration: none;
+    text-align: center;
+    color: #5FCC63;
+    border: solid 1px #5FCC63;
 }
 .link{
     font-size: 2rem;
