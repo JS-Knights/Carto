@@ -266,6 +266,12 @@
   },
   {
     "id":"44",
+    "name":"Desolate JINLI DIY palace",
+    "url":"./img/palace-shirt.jpg",
+    "price":"105.99"
+  },
+  {
+    "id": "45"
     "name":"Blue Jeans",
     "url":"./img/pepe1.jpg",
     "price":"9.99"
