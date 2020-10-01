@@ -61,11 +61,11 @@ let AddtoCart =  (ev) =>{
 let AddListeners = ()=>{
     for(let i =0;i<cart.length;i{
     {
-        let j = "minus--" + cart[i].id;
-        let l = "plus--" + cart[i].id;
+        let j = `minus--${cart[i].id}`;
+        let l = `plus--${cart[i].id}`;
         let s = document.getElementById(l);
         let k = document.getElementById(j);
-        let w = "delete--" + cart[i].id;
+        let w = `delete--${cart[i].id}`;
         let q = document.getElementById(w);
         console.log(k)
         q.addEventListener('click', DeleteFromCart);
@@ -74,10 +74,10 @@ let AddListeners = ()=>{
     }
 }
 let RefreshItems = (n,i,k) =>{
-    let id = "quantity--"+i;
+    let id = `quantity--${i}`;
     let k = document.getElementById(id);
     k.innerHTML = n;
-    let r = "price--"+i;
+    let r = `price--${i}`;
     let e = document.getElementById(r);
     var t = document.getElementById("cost");
     let price = e.innerText;
@@ -157,7 +157,7 @@ let loadItems = () =>{
             var n = Number(cart[i].id);
             console.log(cart);
             var q = Number(cart[i].quantity);
-            cost = cost + Number(data[n].price*q);
+            cost += Number(data[n].price*q);
             $("#Detail--c").append(`<div class="Detail--item" id="${n}">
             <div class="Detail--item--col1">
                 <div class="item--image--container">
