@@ -64,6 +64,7 @@ header{
 }
 .header--icon--box:hover{
     background-color: #F4F5F7;
+    transition: all 0.36s ease;
 }
 .header--icon{
     height: 40%;
@@ -180,6 +181,7 @@ header{
 }
 .icon--container:hover{
     background-color: #F4F5F7;
+    transition: all 0.36s ease;
 }
 .quantity{
     display: flex;
@@ -380,14 +382,17 @@ header{
 }
 .link:hover{
     color: #F4F5F7;
+    transition: all 0.37s ease;
 }
 .button--2:hover{
     background-color: #5FCC63;
     color: #F4F5F7;
+    transition: all 0.38s ease;
 }
 .button--1:hover{
     background-color: black;
     color: #F4F5F7;!important;
+    transition: all 0.33s ease;
 }
 
 
