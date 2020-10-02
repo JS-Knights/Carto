@@ -125,8 +125,15 @@ let loadItems = () =>{
         AddListeners();
     });
     // console.log("hello i am out ")
-
+    function Payment()
+    {
+        console.log("botton clicked");
+    }
 }
+
+
+
+
 (function($) { // Begin jQuery
   $(function() { // DOM ready
     // If a link has a dropdown, add sub menu toggle.
