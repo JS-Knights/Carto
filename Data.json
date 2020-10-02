@@ -269,6 +269,42 @@
     "name":"Blue Jeans",
     "url":"./img/pepe1.jpg",
     "price":"9.99"
+  },
+  {
+    "id":"45",
+    "name":"Solid Waterfall Collar Double Breasted Coat",
+    "url":"./img/long-brown-coat.webp",
+    "price":"59.99"
+  },
+  {
+    "id":"46",
+    "name":"Knit Asymmetrical Button Front Jacket",
+    "url":"./img/knit-green-jacket.jpg",
+    "price":"49.99"
+  },
+  {
+    "id":"47",
+    "name":"Leopard Print Blouse",
+    "url":"./img/leopard-print-blouse.jpg",
+    "price":"29.99"
+  },
+  {
+    "id":"48",
+    "name":"Crochet-lace Tank",
+    "url":"./img/lace-tank",
+    "price":"19.99"
+  },
+  {
+    "id":"49",
+    "name":"Betabrand Yoga Denim Boot-Cut • Classic Dark Indigo",
+    "url":"./img/boot_cut_betabrand_yoga_denim_indigo.jpg",
+    "price":"118.99"
+  },
+  {
+    "id":"50",
+    "name":"Women's Black Romper",
+    "url":"./img/black_romper.jpg",
+    "price":"79.99"
   }
 ]
 
