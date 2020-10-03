@@ -242,7 +242,7 @@ header{
   color: #FFF;
   text-decoration: none;
   text-transform: lowercase;
-  //background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #FFF 50%);
+  /*background-image: linear-gradient(120deg, transparent 0%, transparent 50%, #FFF 50%);*/
   background-size: 230%;
   transition: all .4s; }
   .navigation__link:link span, .navigation__link:visited span {
@@ -502,7 +502,7 @@ input{
   /*---RESPONSIVE DESIGN---*/
 
   /*---------BODY---------*/
-  body
+  body{
     @media only screen and (max-width: 56.25em) {
       body {
         font-size: 50%;
