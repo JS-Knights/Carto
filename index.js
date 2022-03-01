@@ -1,3 +1,5 @@
+//bypass twilioQuest
+
 let cart = [] ;
 window.onload = function () {
     loadItems();
