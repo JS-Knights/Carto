@@ -269,6 +269,24 @@
     "name":"Blue Jeans",
     "url":"./img/pepe1.jpg",
     "price":"9.99"
+  },
+  {
+    "id":"45",
+    "name":"Ball Gown",
+    "url":"./img/ball-gown.jpeg",
+    "price":"59.99"
+  },
+  {
+    "id":"46",
+    "name":"Purple Designer Gown",
+    "url":"./img/designer-gown-purple.webp",
+    "price":"83.99"
+  },
+  {
+    "id":"47",
+    "name":"Red Gown",
+    "url":"./img/red-gown.jpeg",
+    "price":"83.99"
   }
 ]
 
