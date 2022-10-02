@@ -75,9 +75,12 @@ header{
     background-color: #F4F5F7;
 }
 .icon{
-    height: 40%;
-    width: 20%;
-    margin-left: 32%;
+    /* height: 40%;
+    width: 20%; */
+    /* margin-left: 32%; */
+    height: 30px;
+    width: 30px;
+    filter: invert(1);
 }
 .cart--count{
     display: flex;
@@ -559,29 +562,52 @@ input{
       width: 90vw;
   }
 }
+.nav-container2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 50px;
+}
  .navi {
   height: 70px;
   background: #262626;
 }
-
+.nav-list2{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 1px solid red; */
+  width: 20%;
+}
 .brand {
-  position: absolute;
-  padding-left: 20px;
-  float: left;
-  line-height: 70px;
+  /* position: absolute; */
+  /* padding-left: 20px; */
+  /* float: left; */
+  /* line-height: 70px; */
+  /* border: 1px solid red; */
   text-transform: uppercase;
   font-size: 1.4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 10px;
 }
 .brand a,
 .brand a:visited {
   color: #ffffff;
   text-decoration: none;
+  font-size: 2rem;
 }
 
-.nav-container {
-  max-width: 1000px;
-  margin: 0 auto;
+.nav-container{
+  /* max-width: 1000px; */
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px solid red;
 }
+
 
 nav {
   float: right;
