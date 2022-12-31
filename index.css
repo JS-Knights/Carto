@@ -456,10 +456,15 @@ header{
 footer{
     display:flex;
     flex-wrap: wrap;
+    position: relative;
+    bottom: 0;
+    width: 100%;
     align-items: stretch;
     justify-content: space-around;
     width: 100%;
-    background-color: lightgrey;
+    background-color: black;
+    color: white;
+    font-family: 'Poppins',sans-serif;
 }
 
 .footer--col{
@@ -480,24 +485,63 @@ footer{
 }
 
 input{
-    font-size : 1.25rem;
+    font-size : 1.45rem;
     padding : 1rem;
     margin: .5rem;
+    width: 80%;
+
 }
 .col--a{
     padding : 1rem;
     font-size : 2rem;
     font-weight: lighter;
     text-decoration: none;
-    color: black;
+    color: white;
+}
+.footer--col .button{
+  width: 80%;
+  margin: auto;
+  margin-top: 2%;
+  border-radius: 9px;
+}
+.footer--col .button:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
 .col--item{
-    font-size: 2rem;
-    font-weight: lighter;
+    font-size: 1.9rem;
+    margin: 1%;
+}
+.col--item span,.col--a{
+  color: rgb(124, 118, 118);
+  font-size: 1.7rem;
+
+}
+.col--links{
+  width: 50%;
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.col--item span:hover,.col--a:hover{
+  color: whitesmoke;
+  cursor: pointer;
 }
 .col--heading{
     font-size: 2.5rem;
-    font-weight: lighter;
+    font-weight: bolder;
+    transform: scale(1.1);
+    font-family: 'Bungee Shade', cursive;
+    font-family: 'Cutive', serif;
+    font-family: 'Poppins', sans-serif;
+}
+.col--item i{
+  font-size: 1.65rem;
+  margin-right: 3%;
 }
   /*---RESPONSIVE DESIGN---*/
 
